@@ -1,0 +1,87 @@
+/* players-grid-style */
+
+
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+section{
+   
+    width: 1050px;
+    
+    margin-left:180px;
+    margin-right: 210px;
+    top: 70px;
+    border: 5px whitesmoke;
+}
+
+/*top players styl*/
+.top-players{
+    
+    display:grid;
+    
+    grid-template-columns: repeat(3,1fr);
+    /* justify-content: space-between; */
+    
+    grid-row-gap:27px;
+    grid-column-gap:30px ;
+    background-color: white;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items:center;
+   
+}
+.player h{
+    text-align: start;
+
+
+}
+    
+    
+    
+
+.player p{
+    font-size: 16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align:center;
+}
+
+.player img{
+        
+        width: 300px;
+        height: 256px;
+        margin:15px;
+        
+       
+        
+    }
+.player-name{
+        color: #18191F;
+        margin: 10px 0px;
+        
+    } 
+    /* @media (max-width: 700px){
+        .player{
+            margin-bottom: 24px;
+        }
+        .players{
+           flex-direction: column;
+
+        }
+
+    }
+    @media (min-width){
+
+    } */
+    

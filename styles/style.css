@@ -1,0 +1,83 @@
+/* header-style */
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.flexible-container{
+    
+    
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    height:677px;
+    width:1440px;
+    left:0;
+    background-color: #2D25A0;
+
+
+}
+.half-width{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    transition: all 1s ease-in-out;
+}
+
+
+
+.half-width h1{
+    height:230px;
+    width:485px;
+    
+    color:white;
+    font-weight: bold;
+    font-size: 64px;
+    margin-left: 156px;
+    margin-top:230px;
+    margin-bottom:27px;
+    line-height:80px;
+
+
+}
+.half-width a{
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+
+    margin-left: 156px;
+    padding:10px, 24px,10px,24px;
+   
+    border-radius: 3px;
+    
+    
+}
+.half-width:hover a{
+    transform: scale(1.5);
+
+
+}
+
+
+.half-width img{
+    
+width: 428px;
+height: 350px;
+margin-top: 153px;
+margin-bottom: 86px;
+margin-right: 147px;
+
+}
+.half-width:hover img{
+    transform: scale(1.5) ;
+    transition: transfom 2s ease-in-out;
+
+
+
+}

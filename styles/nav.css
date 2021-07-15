@@ -1,0 +1,40 @@
+/* nav-style */
+
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    background-color: #2D25A0;
+    flex-direction:row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 1160px;
+    height: 44px;
+    left: 156px;
+    top: 42px;
+}
+
+
+nav li{
+    list-style: none;
+    margin-right:20px;
+    padding: flex;
+}
+nav li:hover{
+    background-color: lightskyblue;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+   
+}
